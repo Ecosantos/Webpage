@@ -36,25 +36,21 @@ usethis::edit_r_environ()
 #Se necessário criar uma token que será adicionado ao arquivo . Renviron
 #usethis::create_github_token()
 
-usethis::edit_r_environ()
-
 usethis::use_git()
-
-install.packages("repro")
 
 repro::check_git()
 
-repro::check_github()
+repro::check_git_ssh()
 
-#If check_github() does not run use
-usethis::create_github_token()
 
-usethis::create_github_token()
+repro::check_github_ssh()
 
-validate_gh_pat(GITHUB_PAT=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)
-usethis::gh_token_help()
+library(gh)
+gh::gitcredts_get()
+  
 
 usethis::use_github()
+
 
 
 
