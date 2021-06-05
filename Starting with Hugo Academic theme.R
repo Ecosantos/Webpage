@@ -34,22 +34,23 @@ usethis::use_git_config(
 usethis::edit_r_environ()
 
 #Se necessário criar uma token que será adicionado ao arquivo . Renviron
-#usethis::create_github_token()
+usethis::create_github_token()
+
 
 usethis::use_git()
 
+#gitcreds::gitcreds_set()
+
 repro::check_git()
 
-repro::check_git_ssh()
+usethis::use_github()
 
+
+
+#repro::check_git_ssh()
 
 repro::check_github_ssh()
 
-library(gh)
-gh::gitcredts_get()
-  
-
-usethis::use_github()
 
 
 
