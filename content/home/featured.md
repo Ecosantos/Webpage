@@ -12,7 +12,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 80
 
-title: Featured Publications
+title: News
 subtitle: ""
 
 content:
@@ -37,3 +37,8 @@ design:
   #   4 = Citation (publication only)
   view: 3
 ---
+
+<a class="twitter-timeline" data-width="300" data-height="400" href="https://twitter.com/anycommonname">Tweets by @Anycommonname</a> 
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+

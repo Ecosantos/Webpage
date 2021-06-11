@@ -1,5 +1,8 @@
-#---      #adicionei o '#' para que esse widget parasse de funcionar!
 widget: hero
+
+# Activate this widget? true/false
+active: false
+
 headless: true
 weight: 10
 title: Hugo Academic Starter
@@ -20,7 +23,7 @@ design:
     text_color_light: true
 advanced:
   css_class: fullscreen
-#---
+---
 
 **The FREE, Hugo-based open source website builder and template trusted by 500,000+ sites.**
 

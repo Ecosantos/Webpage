@@ -89,8 +89,23 @@ usethis::git_sitrep()
 #           Updating website
 #-------------------------------------------------
 
+usethis::proj_sitrep()
 
 usethis::pr_push()
+
+usethis::git_sitrep()
+
+usethis::pr_merge()
+
+# Or manualy 
+
+# Passo 1: Tools >> Shell
+# Passo 2: digitar
+
+git remote add origin https://github.com/ecosantos/Webpage.git
+
+git push -u origin main
+
 
 
 
