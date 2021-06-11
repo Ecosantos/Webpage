@@ -82,6 +82,12 @@ usethis::git_sitrep()
 #   Depois copiei as três linhas de comando existentes e rodei elas no Shell (Tools>Sheel)
 # Veja aqui: https://jennybc.github.io/2014-05-12-ubc/ubc-r/session2.4_github.html
 
+
+git remote add origin https://github.com/ecosantos/Webpage.git
+
+git push -u origin main
+
+
 # Bom exemplo também
 # https://usethis.r-lib.org/articles/articles/git-credentials.html
 
@@ -89,22 +95,23 @@ usethis::git_sitrep()
 #           Updating website
 #-------------------------------------------------
 
-usethis::proj_sitrep()
-
 usethis::pr_push()
 
-usethis::git_sitrep()
-
-usethis::pr_merge()
 
 # Or manualy 
 
 # Passo 1: Tools >> Shell
 # Passo 2: digitar
 
-git remote add origin https://github.com/ecosantos/Webpage.git
+# Em caso de dificuldade de marcar como "stage" os arquivos em que houve mudança, 
+# ir no termial abaixo e digitar:
+git add -A
 
-git push -u origin main
+#Depois basta ir em commit e Push
+
+
+
+
 
 
 

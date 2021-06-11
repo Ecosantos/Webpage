@@ -42,8 +42,18 @@ superuser: true
 title: Gabriel Santos
 ---
 
+
+I'm migrating my [wixsite](https://gabeco.wixsite.com/home) to the Netlify using Rstudio & Blogdown & Hugo. Be tunned. 
+
+
 I'm supposed to write a nice presentation for myself here. So, be patient and next time you are visiting me I'll bring offer good news/facts.
 
 See you!
+
+
+Testing 11 June 2021
+
+
+
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
