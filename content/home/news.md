@@ -1,5 +1,5 @@
 ---
-# An instance of the Blank widget with a News page element.
+# An instance of the Blank widget with a news page element.
 # Documentation: https://wowchemy.com/docs/getting-started/page-builder/
 widget: blank
 
