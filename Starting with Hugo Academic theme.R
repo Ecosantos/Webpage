@@ -109,6 +109,8 @@ git add -A
 
 #Depois basta ir em commit e Push
 
+# USE ISSO!
+blogdown::build_site()
 
 
 
