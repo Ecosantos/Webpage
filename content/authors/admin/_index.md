@@ -1,6 +1,5 @@
 ---
-bio: Ecologist
-  matter.
+bio: Ecologist matter.
 education:
   courses:
   - course: PhD in Ecology & Evolution
@@ -12,7 +11,7 @@ education:
   - course: BSc in Biological Sciences
     institution: Universidade Federal do Espírito Santo -  Brazil
     year: 2008
-email: "ssantos.gabriel@gmail.com"
+email: ssantos.gabriel@gmail.com
 highlight_name: false
 interests:
 - Demography
@@ -20,7 +19,7 @@ interests:
 - Applied statistics
 organizations:
 - name: Rio de Janeiro State University -  Brazil
-  url: 
+  url: null
 role: PhD Candidate
 social:
 - icon: envelope
