@@ -107,6 +107,7 @@ usethis::pr_push()
 # ir no termial abaixo e digitar:
 git add -A
 
+
 #Depois basta ir em commit e Push
 
 # USE ISSO!
