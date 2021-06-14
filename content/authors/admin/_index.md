@@ -42,7 +42,10 @@ title: Gabriel Santos
 ---
 
 
+
+{{% callout note %}}
 I'm migrating my [wixsite](https://gabeco.wixsite.com/home) to the Netlify using Rstudio & Blogdown & Hugo. Be tunned. 
+{{% /callout %}}
 
 
 I'm supposed to write a nice presentation for myself here. So, be patient and next time you are visiting me I'll bring offer good news/facts.
@@ -50,9 +53,10 @@ I'm supposed to write a nice presentation for myself here. So, be patient and ne
 See you!
 
 
+{{% callout note %}}
 Testing 11 June 2021
+{{% /callout %}}
 
-
-
-
+{{% callout note %}}
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{% /callout %}}

@@ -112,7 +112,7 @@ git add -A
 # USE ISSO!
 blogdown::build_site()
 
-
+blogdown::serve_site()
 
 
 
