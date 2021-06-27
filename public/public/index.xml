@@ -5,12 +5,83 @@
     <link>/public/</link>
       <atom:link href="/public/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>/public/</link>
     </image>
+    
+    <item>
+      <title>Hugo Academic Theme Demo</title>
+      <link>/public/demo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/public/demo/</guid>
+      <description>&lt;p&gt;Lista de episódios de Black Mirror
+Origem: Wikipédia, a enciclopédia livre.&lt;/p&gt;
+&lt;p&gt;Esta página cita fontes confiáveis, mas que não cobrem todo o conteúdo. Ajude a inserir referências. Conteúdo não verificável poderá ser removido.—Encontre fontes: Google (notícias, livros e acadêmico) (Novembro de 2020)
+A seguir se apresenta a lista dos episódios de Black Mirror, uma série de televisão antológica na qual apresenta ficção especulativa com temas sombrios e, às vezes, satíricos, que examinam a sociedade contemporânea, especialmente no que diz respeito às consequências imprevistas das novas tecnologias.[1] Black Mirror é uma série de ficção científica, sátira e drama psicológico que teve suas duas primeiras temporadas transmitidas no canal de televisão Channel 4, no Reino Unido. A partir da terceira temporada, a série passou a ser transmitida pela Netflix. A série é desenvolvida por Charlie Brooker. Segundo ele, com referência ao conteúdo e à estrutura da série, &amp;ldquo;cada episódio tem um elenco diferente, um cenário diferente, até mesmo uma realidade diferente, mas todos tratam da forma como vivemos agora — e da forma como podemos estar vivendo daqui a 10 minutos, se formos desastrados&amp;rdquo;.[2]&lt;/p&gt;
+&lt;p&gt;Índice
+1	Resumo
+2	Episódios
+2.1	1ª temporada (2011)
+2.2	2ª temporada (2013)
+2.3	Especial (2014)
+2.4	3ª temporada (2016)
+2.5	4ª temporada (2017)
+2.6	Filme interativo (2018)
+2.7	5ª temporada (2019)
+3	Referências
+4	Ligações externas
+Resumo
+Temporada	Episódios	Originalmente lançado
+Estreia da temporada	Final da temporada	Emissora
+1	3	4 de dezembro de 2011	18 de dezembro de 2011	Channel 4
+2	3	11 de fevereiro de 2013	25 de fevereiro de 2013
+Especial	16 de dezembro de 2014
+3	6	21 de outubro de 2016	Netflix
+4	6	29 de dezembro de 2017
+Filme	28 de dezembro de 2018
+5	3	5 de junho de 2019&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/public/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/public/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>/public/pubs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/public/pubs/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Quickly discover relevant content by &lt;a href=&#34;.&#34;&gt;filtering publications&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;@inproceedings{example1,
+title={An example conference paper},
+author={Bighetti, Nelson and Ford, Robert},
+booktitle={Source Themes Conference},
+pages={1&amp;ndash;6},
+year={2013},
+organization={IEEE}
+}&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Landing Page</title>
+      <link>/public/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/public/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>An example conference paper</title>
