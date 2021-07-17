@@ -1,5 +1,5 @@
 ---
-bio: Ecologist matter.
+bio: Equality & Justice.
 education:
   courses:
   - course: PhD in Ecology & Evolution

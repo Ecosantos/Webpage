@@ -22,10 +22,18 @@ design:
  <font size="4"> 
  
 ## 2020
-**Santos, G.S.**; Vecchi, M.B. & Alves, M.A.S. Transatlantic movement of Domestic Pigeons Columba livia domestica? *Oecologia Australis*. Link  [Graphical abstract]
+**Santos, G.S.**; Vecchi, M.B. & Alves, M.A.S. Transatlantic movement of Domestic Pigeons *Columba livia domestica*? *[Oecologia Australis](http://dx.doi.org/10.4257/oeco.2020.2404.03)*.
+
+{{% callout note %}}
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{% /callout %}}
+
+{{< staticref "https://revistas.ufrj.br/index.php/oa/article/download/781/21719f" "newtab" >}}{{< icon name="download" pack="fas" >}}{{< /staticref >}}.
+
+
 
 ## 2019
-Zucaratto, R.; **Santos, G.S.**; Pires, A.S. & Bergallo, H.G. Coalescing past and present to predict the future: historical attributes and current situation of a non-native palm on an island in the Atlantic Forest in Brazil. Journal of Coastal Conservation. 24(20). 2020. Link.
+Zucaratto, R.; **Santos, G.S.**; Pires, A.S. & Bergallo, H.G. Coalescing past and present to predict the future: historical attributes and current situation of a non-native palm on an island in the Atlantic Forest in Brazil. Journal of Coastal Conservation
 
 **Santos, G.S.** Ribeiro, I.C.; Centoducatte, L.D.; Mendes, S.L. (Birds breeding biology and homogenization process in an urban green area at Atlantic rainforest of Southeastern Brazil). Reprodução da avifauna e o processo de homogeneização em uma área verde planejada no sudeste da Mata Atlântica. Neotropical Biology and Conservation. 14(1): 83-98. 2019. Link.
 
