@@ -10,7 +10,11 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 15
+weight: 2
+
+# Activate this widget? true/false
+active: false
+
 
 title: Hugo Academic Theme Demo
 subtitle:
