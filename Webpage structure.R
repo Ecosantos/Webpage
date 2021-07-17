@@ -30,10 +30,17 @@ file.edit("./content/public/Upcoming.Rmd")
 #           HOME
 #==================================================================#
 
-file.edit("./content/home/about.md")
+
+file.edit("C:/Webpage/Webpage/content/authors/admin/_index.md")
 
 
 #==================================================================#
 #           Contact information
 #==================================================================#
 
+
+
+#==================================================================#
+#           Getting free icons here
+#==================================================================#
+https://fontawesome.com/v5.15/icons?d=gallery&p=2&q=pdf&m=free
