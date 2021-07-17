@@ -1,24 +1,16 @@
 ---
-# An instance of the Blank widget with a news page element.
-# Documentation: https://wowchemy.com/docs/getting-started/page-builder/
-widget: blank
-
-# Activate this widget? true/false
-active: true
-
-# This file represents a page section.
-headless: true
-
-# Order that this section appears on the page.
+title: "Upcoming & Preprints"
+active: yes
+headless: yes
 weight: 30
-
-title: Upcoming & Preprints
-subtitle:
-
+widget: blank
+subtitle: null
 design:
   columns: '3'
 ---
 
+ <font size="4"> 
+ 
 **Santos, G.S.**; Salguero-Gómez, R.; Dias, A.T.C.; Kajin, M. et al. To buffer or to labile? A framework to disentangle demographic patterns and evolutionary processes.  [bioRxiv]. In reiview on Oikos
 
 **Santos, G.S.**; Nater, C.; Capdevilla, P.; Salguero-Gómez, R.; Kajin, M. The multiple meanings and scales of buffering. In prep. To be submitted to Trends in Ecology & Evolution [preview under request]
@@ -29,6 +21,9 @@ design:
 
 **Santos, G.S.** & Kajin, M. Uma introdução gentil aos models populationais matricias: cinco décadas de desenvolvimento teórico e contribuições práticas. In prep. [preview under request] 
 
+</font>
 
 
+
+ 
 
