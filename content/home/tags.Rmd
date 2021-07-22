@@ -78,7 +78,7 @@ textCorpus <-
 ```{r include=FALSE}
 textCorpus <- sort(rowSums(textCorpus), decreasing=TRUE)
 textCorpus <- data.frame(word = names(textCorpus), freq=textCorpus, row.names = NULL)
-MyTweets<-slice(textCorpus,1:500)
+MyTweets<-slice(textCorpus,1:200)
 ```
 
 ```{r}
