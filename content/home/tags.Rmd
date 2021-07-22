@@ -25,6 +25,7 @@ library(tm)            # Text mining cleaning
 library(stringr)       # Removing characters
 library(qdapRegex)     # Removing URLs 
 library(wordcloud2)    # Creating the wordcloud
+library(tidyverse)
 ```
 
 
@@ -77,6 +78,7 @@ textCorpus <-
 ```{r include=FALSE}
 textCorpus <- sort(rowSums(textCorpus), decreasing=TRUE)
 textCorpus <- data.frame(word = names(textCorpus), freq=textCorpus, row.names = NULL)
+MyTweets<-slice(textCorpus,1:500)
 ```
 
 ```{r}
@@ -85,7 +87,7 @@ textCorpus <- data.frame(word = names(textCorpus), freq=textCorpus, row.names = 
 
 ```{r}
 library(hwordcloud)
-hwordcloud(text = textCorpus$word, size = textCorpus$freq, 
+hwordcloud(text = MyTweets$word, size = MyTweets$freq, 
            width = "100%", height = "200px")
 ```
 
