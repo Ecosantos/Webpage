@@ -45,6 +45,12 @@ title: Gabriel Santos
 ---
 
 
+{{< staticref "http://dx.doi.org/10.4257/oeco.2020.2404.03" "newtab" >}}<i class="fas fa-file-pdf"></i>{{< /staticref >}}
+
+<a href="www.squarespace.com" target="_blank"><i class="fas fa-file-pdf"></i></a>
+
+
+
 {{% callout note %}}
 I'm migrating my [wixsite](https://gabeco.wixsite.com/home) to the Netlify using Rstudio & Blogdown & Hugo. Be tunned. 
 {{% /callout %}}
