@@ -24,8 +24,10 @@ design:
 ## 2020
 **Santos, G.S.**; Vecchi, M.B. & Alves, M.A.S. Transatlantic movement of Domestic Pigeons *Columba livia domestica*? *Oecologia Australis*. {{< staticref "http://dx.doi.org/10.4257/oeco.2020.2404.03" "newtab" >}}<i class="fas fa-file-pdf"></i>{{< /staticref >}}
 
-## 2019
 Zucaratto, R.; **Santos, G.S.**; Pires, A.S. & Bergallo, H.G. Coalescing past and present to predict the future: historical attributes and current situation of a non-native palm on an island in the Atlantic Forest in Brazil. *Journal of Coastal Conservation* {{< staticref "https://www.researchgate.net/publication/339569465_Coalescing_past_and_present_to_predict_the_future_historical_attributes_and_current_situation_of_a_non-native_palm_on_an_island_in_the_Atlantic_Forest?_sg=5b2Nu5lrWV-gVPMwaal5EU0OG5lLNXgnMED8gHuTdK-JZJQttwIijYU49u7Vl2tubj4fuS0LSVIow21XSrep1BxNEExG5W2y4XB0qyri.odvprG13sr7oiJp0b24WBlv67FSsZA-P9E8eq0U6QKP_ViEI3BFwxz6q881F0X2kinYc3sDbIcvSioNFdUUSug" "newtab" >}}<i class="fas fa-file-pdf"></i>{{< /staticref >}}
+
+## 2019
+
 
 
 external_link = "[http://example.org](http://example.org/)"
