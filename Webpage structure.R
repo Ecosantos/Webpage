@@ -1,4 +1,9 @@
 #==================================================================#
+#         Building and loading Hugo theme & Blogdown
+#==================================================================#
+file.edit("Starting with Hugo Academic theme.R")
+
+#==================================================================#
 #         Web page structure
 #==================================================================#
 
@@ -44,3 +49,7 @@ file.edit("C:/Webpage/Webpage/content/authors/admin/_index.md")
 #           Getting free icons here
 #==================================================================#
 https://fontawesome.com/v5.15/icons?d=gallery&p=2&q=pdf&m=free
+
+or here
+
+https://www.rollagain.net/post/adding-custom-icons-to-the-hugo-academic-theme/

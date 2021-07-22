@@ -932,8 +932,9 @@
     I&rsquo;m migrating my <a href="https://gabeco.wixsite.com/home">wixsite</a> to the Netlify using Rstudio &amp; Blogdown &amp; Hugo. Be tunned.
   </div>
 </div>
-<p>I&rsquo;m supposed to write a nice presentation for myself here. So, be patient and next time you are visiting me I&rsquo;ll bring offer good news/facts.</p>
-<p>See you!</p>
+<p>I supposed to write a nice presentation for myself here. So, be patient and next time you are visiting me I&rsquo;ll offer some good stuffs.</p>
+<p>Come back for a coffee in a couple of weeks <i class="fas fa-coffee"></i></p>
+<p>See you soon and Take care 😷</p>
 <div class="alert alert-note">
   <div>
     Testing 11 June 2021
@@ -1244,7 +1245,7 @@
   
 
   
-  <section id="tags" class="home-section wg-tag-cloud  "  >
+  <section id="tags" class="home-section wg-blank  "  >
    <div class="home-section-bg " ></div>
     <div class="container">
 
@@ -1253,7 +1254,7 @@
       
         
           <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Popular Topics</h1>
+            <h1 class="mb-0">Popular topics</h1>
             
           </div>
         
@@ -1264,78 +1265,25 @@
 
 
 
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-<div class="col-12 col-lg-8">
-  
-
-  
-
+  <div class="col-12 col-lg-8">
     
-    
-    
-    
-    
-    
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/hwordcloud/highcharts.js"></script>
+<script src="/rmarkdown-libs/hwordcloud/oldie.js"></script>
+<script src="/rmarkdown-libs/hwordcloud/wordcloud.js"></script>
+<script src="/rmarkdown-libs/hwordcloud-binding/hwordcloud.js"></script>
 
-    <div class="tag-cloud">
-      
-        
-        
-        
-        <a href="/tag/academic/" style="font-size:0.7rem">Academic</a>
-      
-        
-        
-        
-        <a href="/tag/deep-learning/" style="font-size:0.7rem">Deep Learning</a>
-      
-        
-        
-        
-        <a href="/tag/demo/" style="font-size:0.7rem">Demo</a>
-      
-        
-        
-        
-        <a href="/tag/plot/" style="font-size:0.7rem">plot</a>
-      
-        
-        
-        
-        <a href="/tag/r-markdown/" style="font-size:0.7rem">R Markdown</a>
-      
-        
-        
-        
-        <a href="/tag/regression/" style="font-size:0.7rem">regression</a>
-      
-        
-        
-        
-        <a href="/tag/source-themes/" style="font-size:1.7302256254687514rem">Source Themes</a>
-      
-        
-        
-        
-        <a href="/tag/%E5%BC%80%E6%BA%90/" style="font-size:0.7rem">开源</a>
-      
-    </div>
-  
 
-</div>
+<pre class="r"><code>#wordcloud2(data = textCorpus)</code></pre>
+<pre class="r"><code>library(hwordcloud)
+hwordcloud(text = textCorpus$word, size = textCorpus$freq, 
+           width = &quot;100%&quot;, height = &quot;200px&quot;)</code></pre>
+<div id="htmlwidget-1" style="width:100%;height:200px;" class="hwordcloud html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"text":["many","new","amazing","data","i'm","biology","can","free","get","good","journal","next","one","students","thanks","tá","writing","years","australis","bit","early","encourage","excited","experience","first","gente","got","grant","know","link","lot","much","oecologia","part","phd","pra","proposal","publishing","researchers","science","scientific","see","super","time","tips","virtual","volume","waiting","will","year","acho","agora","already","also","announce","ano","aqui.","available","beer","celebrate","competitive","countries","distance","diversity","ecología","especial","even","exciting","fellowship","find","from","gosta.","great","great!","help","hosting","i'd","i'll","improved","job","join","journals.","june","last","love","major","mathematical","methods","nature","now","offering","option","paper","participation","past","pena","people","place","potential","preparing","presenting","professionals","proud","reason","record","required","science.","seems","segue","share","side,","sobre","sounds","speakers!","species","take","temperature","thanks!","the","training","tropical","using","volunteered","warmer","wildlife","work","workshop","workshops","write","yet,","!!!¿trabajas/estudias","\"ecologia","\"how","\"the","\"writing","\"years","&gt;","&lt;why","(!)","(),","(-pm","(alemanha,","(almost)","(see","(will","-mailed","-represented",".palmito","able","abrindo","acaba","access","access,","acesse:","across","additional","advice","advisors","afford","agree","alergia","alert","alojamento","ambientais","andre","ano!","another","ansioso","answer","answers.","anyone","anótate","apocalypse","apply","appointed","aquí:","around","article","aside","asking","assay","assim","atacando.","ativa","attached","attend","atualidade","august","average).","averaged","bad","barrier.poor","barriers","based","beautiful)","believe","bes","best","biggest","bio,","biodiversity","bixo,","blog,","boa","bom","bom,","book","botanist","brasil,","brazil","bread","bright","bulletin","canada,","canal","candidate","career","change","change,","changing","channel","charge","chart","check","chegando","children","chile,","ciência","class?","classroom","classroom,","climate","closely","co-advisor","co-edited","co-occurring","co-submitted","coalizão","collated","collecting","comadre","come","comentário","comes","coming","commissioning","committee","common","community","compadre","complete","completely","comunidades.","conference","conferir","congrats","congratulations","consequence","conservation","conservation\".","conservation,","construir","conteúdo","continue","contributions","conversation","cool,","cooler","coqueiral","course","course)!","courses","created","creating","credit)","curie","cute","dando","databases","dates/times.","day","day.","deadline","definitely","del","delighted","demographic","descoberta","descobriram","desde","design.","desisti","deste","details)","determine","dias","die-","difficulty","dificuldades","diploma","discounts,","disponíveis","disponível","diversity,","divulgação","dog's","done","download","dreams","dúvida","each","ecologia","ecology","ecology,","editor!","editor.","editors--chief","effective","effectiveness,","encontrar","engaged","english","enter","envio","espontâneas","espírito","esse","est),","estados","estadística","estadística?","estamos","este","event","event!","event,","events/workshops/mentorship--please","ever","ever.","every","examine","excellent","existe","experiencias","extend","faces","fantástico,","far.","fast!","fastapi.","faça","fewer","ficar","ficou","field,","fim","final","finally","five-day","flat","flayer","fly-","focus","formal","format","formuladas=(","forward","frança","free!!!!","free,","full","fully","functional","funding.","funds","future","future.first","galera","gente...","gif","give","global","gostaram.","grad","grad,","grande","grant)","grants,","gravado","great.","greater","groups","growing","grupo","guide","habits","hablaremos","health","helping","high","highest","historic","history","hope","hopeful","hopes","host","hours","huge","i've","id!","id:","ideas","image","impolite","important?","importantes","including","inclusive","inclusivesuper","inferences","influence","info","informações","initiative","input","inscreveram","inscritos!","inspiring","inspiring!","instead","intended","interact","interessados","interested","international","introduce","isec.","itaparica,","journals","journey","july","june,","junho","just","kajin","keen","keep","lab","language","languages","lançar","latam.","late","later","latest,","latinoamérica!","latrine","lead","learn","learned","least","led","leitura","ler","less","level\".","life”","linda!!!!","linkages","lisonjeado","little","logo","longer","lovely","luck","lá","lá,","maa","macacos-prego","macro-ecological","mail","maja","make","mal","mandatory","manuscript","marie","mas","mass","master’s","mathematics","mathematics.","maybe","measured","meet","meeting","meeting:","membership","mentor!!!","merda","mesma","might","milésima","minority","mix","moment","monte","months'","move","msca","multiple","natural","need","neighbours","nervous","nessa","net.","network)","never","nightmare","notes,","novos.","now:","não?","né?","observations.","oh,","olha","one,","ones!","online","online,","online.","opportunities","organizing","orgulho!","our","outcomes.","outcomeswebnario","painful","painfully","palm's","palmito","panelists","papers.","para","parabéns!","parabéns!!","paragraph","participate,","participação","países","pedir","pegando","peixes","perdendo","perder","perguntas","perhaps","perks","perto","período","pesado","pesquisadoras","pesquisadores","pi's","pi,","picture","picture!","pinch","pizza","plant","please","pls","pm!","pokedex?","population","populations","populations,","português","position","post","post:","poster.","posters","pouco","poxa","pre-order!","presentation.","prestigious","print","probably","problema","process","produzidas","profesionales","professional","professional\".","project","project.","projects","properly","proposal,","proposals","propostas","proveito!","public,","putting","quarto","que","questions","quieres","qué","re-evaluate","realize","realized","really","receber","received","receiving","redes","reduce","regional","register","register!","reino","rejection","related","releases","remedy","repertoire","representation","represents","reproducibility","research","researchers\"","researches","resources,","responses","rest","result.","resultados!","results.","retreat","reunión","revista","riacho\",","richness","rob","rob!","role","rough","rt?]","rude","run","saber?","sabes","safety.\"","sampling","saudades","save","saw","sbe","schedule","scheduled,","scientist","scientists","screen","sea-urchins,","seas","sem","seminar","senescence,","sense","series","sessions.","sete","shape","show","showcase","showing","sign","sim.","simultaneously)?","sinal","since","sininho","site!","site.","skill","skills","so,","sociedade","socioambientais","speak","special","spoiler,","spp.","stage","statistics","still","store","stripe","student?","submission","submissões","such","sufficient","sunday","sure","survivor","syllabi","só","tagging","talk","talking","target","tava","tbm","tbm.who","teach","teachers","teaching","team","team.","team?such","tema","temas","ten","terrific","th.","thaaaanks","thank","there","thing.","think","this","thursday","timwe","tip:","tips/rules","today","todos.","too","top-tier","traditionally","traits","tree","tri-society","two","type,","tô","umas","undergrad","undergrad,","understanding","understood","unido).","unidos,","upset","use","vai","vale","value","vamos","variety.","vase.","velha.","vendo","version","vezmeet","viene","vila","visual","vídeos","watching","way","we're","webinar:","website","webséries","wednesday,","well","we’re","where","wide","wondering","wooow.","woow,","words","world","world)","worries","writing.","written","years.","you","your","youtube?","zombie","zoom","¡se","¿no","ótimo","‘pure’","“demographic","♻divulgação","✔️","➡️","🍃🍃🍃","🍄","👇","👇👇👇","👏👏","👔","📷","🔗","🔴","🔵","😂🤟","😅","😍pra","😢","😱agora","🤔","🤦","🤩🤩","🤷‍♂️interesting,","🥰","🥳🥳","🥺🤞🏽"],"size":[6,6,5,5,5,4,4,4,4,4,4,4,4,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],"theme":"sandsignika","itermName":"count","title":"","titleAlign":"center","titleSize":"20px","titleColor":"#333333","subtitle":"","subtitleAlign":"center","subtitleSize":"","subtitleColor":"#666666"},"evals":[],"jsHooks":[]}</script>
+
+  </div>
+
 
 
     

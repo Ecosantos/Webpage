@@ -1,0 +1,97 @@
+---
+# An instance of the Blank widget with a news page element.
+# Documentation: https://wowchemy.com/docs/getting-started/page-builder/
+widget: blank
+
+# Activate this widget? true/false
+active: true
+
+# This file represents a page section.
+headless: true
+
+# Order that this section appears on the page.
+weight: 120
+
+title: Popular topics
+subtitle:
+
+design:
+  columns: '3'
+---
+
+```{r include=FALSE, echo=FALSE}
+library(rtweet)        # Used for extracting the tweets
+library(tm)            # Text mining cleaning
+library(stringr)       # Removing characters
+library(qdapRegex)     # Removing URLs 
+library(wordcloud2)    # Creating the wordcloud
+```
+
+
+```{r include=FALSE}
+#Due to problems on API I need to create and save the Twitter scrap in a RDS object which RMarkdown can read without request API
+# it means that I need to run this chunk manually to scrap my tweets
+# And them I can knit!
+# scrape the tweets
+#tweets_pab <- get_timelines(c("anycommonname"), n = 3200)
+#saveRDS(tweets_pab, "My tweets.rds")
+```
+
+```{r include=FALSE}
+rm(list=ls())
+```
+
+```{r include=FALSE}
+tweets_pab <- readRDS("My tweets.rds")
+```
+
+
+```{r include=FALSE}
+# Clean the data
+text <- str_c(tweets_pab$text, collapse = "")
+
+
+text <- 
+  text %>%
+  str_remove("\\n") %>%                   # remove linebreaks
+  rm_twitter_url() %>%                    # Remove URLS
+  rm_url() %>%
+  str_remove_all("#\\S+") %>%             # Remove any hashtags
+  str_remove_all("@\\S+") %>%             # Remove any @ mentions
+  removeWords(stopwords("english")) %>%   # Remove common words (a, the, it etc.)
+  removeWords(stopwords("portuguese")) %>%   # Remove common words (a, the, it etc.)
+  removeNumbers() %>%
+  stripWhitespace() %>%
+  removeWords(c("amp"))                   # Final cleanup of other small changes
+
+```
+
+```{r include=FALSE}
+# Convert the data into a summary table
+textCorpus <- 
+  Corpus(VectorSource(text)) %>%
+  TermDocumentMatrix() %>%
+  as.matrix()
+```
+
+```{r include=FALSE}
+textCorpus <- sort(rowSums(textCorpus), decreasing=TRUE)
+textCorpus <- data.frame(word = names(textCorpus), freq=textCorpus, row.names = NULL)
+```
+
+```{r}
+#wordcloud2(data = textCorpus)
+```
+
+```{r}
+library(hwordcloud)
+hwordcloud(text = textCorpus$word, size = textCorpus$freq, 
+           width = "100%", height = "200px")
+```
+
+```{r include=FALSE}
+#library(rmarkdown)
+#render("tags.Rmd")
+```
+
+
