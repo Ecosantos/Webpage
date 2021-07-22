@@ -25,7 +25,7 @@ dir("./content/public")
 
 
 # Add new peer-reviewed publications
-file.edit("./content/public/Peer reviewed.Rmd")
+file.edit("./content/public/Peer reviewed.md")
 
 #Add new Upcomings & in Review & preprints
 file.edit("./content/public/Upcoming.Rmd")
@@ -34,7 +34,6 @@ file.edit("./content/public/Upcoming.Rmd")
 #==================================================================#
 #           HOME
 #==================================================================#
-
 
 file.edit("C:/Webpage/Webpage/content/authors/admin/_index.md")
 

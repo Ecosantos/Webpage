@@ -19,18 +19,30 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 90%
+- description: 95%
   icon: r-project
   icon_pack: fab
   name: R
-- description: 100%
+- description: 90%
   icon: chart-line
   icon_pack: fas
   name: Statistics
-- description: 10%
-  icon: camera-retro
+- description: 50%
+  icon: twitter
+  icon_pack: fab
+  name: Social media
+- description: 90%
+  icon: chart-line
   icon_pack: fas
-  name: Photography
+  name: Statistics
+- description: 15%
+  icon: chart-line
+  icon_pack: fas
+  name: Flute
+- description: -5%
+  icon: inaturalist
+  icon_pack: ai
+  name: Harmonica
 
 # Uncomment to use emoji icons.
 #- icon = ":smile:"

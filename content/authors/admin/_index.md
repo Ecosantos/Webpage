@@ -34,6 +34,9 @@ social:
 - icon: graduation-cap
   icon_pack: fas
   link: https://scholar.google.com/citations?user=DXeK9HwAAAAJ&hl=en
+- icon: lattes
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=DXeK9HwAAAAJ&hl=en
 - icon: github
   icon_pack: fab
   link: https://github.com/ecosantos

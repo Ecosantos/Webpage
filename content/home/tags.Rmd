@@ -81,7 +81,7 @@ textCorpus <- data.frame(word = names(textCorpus), freq=textCorpus, row.names = 
 MyTweets<-slice(textCorpus,1:200)
 ```
 
-```{r}
+```{r include=FALSE}
 #wordcloud2(data = textCorpus)
 ```
 
