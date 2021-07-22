@@ -44,22 +44,6 @@ superuser: true
 title: Gabriel Santos
 ---
 
-
-{{< staticref "http://dx.doi.org/10.4257/oeco.2020.2404.03" "newtab" >}}<i class="fas fa-file-pdf"></i>{{< /staticref >}}
-E
-<a url="www.squarespace.com" target="_blank"><i class="fas fa-file-pdf"></i></a>
-
-C
-<a href="http://www.luasoftware.com" target="_blank">Lua Software</a>
-
-D
-<a href="http://www.luasoftware.com" target="_blank"><i class="fas fa-file-pdf"></i></a>
-
-A
-[<i class="fas fa-file-pdf">](http://www.luasoftware.com)
-
-
-
 {{% callout note %}}
 I'm migrating my [wixsite](https://gabeco.wixsite.com/home) to the Netlify using Rstudio & Blogdown & Hugo. Be tunned. 
 {{% /callout %}}
