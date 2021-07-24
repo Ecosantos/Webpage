@@ -28,21 +28,14 @@ feature:
   icon_pack: fas
   name: Statistics
 - description: 50%
-  icon: twitter
-  icon_pack: fab
-  name: Social media
-- description: 90%
-  icon: chart-line
-  icon_pack: fas
-  name: Statistics
+  icon: inaturalist
+  icon_pack: ai
+  name: Citizen Science
 - description: 15%
   icon: chart-line
   icon_pack: fas
   name: Flute
-- description: -5%
-  icon: inaturalist
-  icon_pack: ai
-  name: Harmonica
+
 
 # Uncomment to use emoji icons.
 #- icon = ":smile:"

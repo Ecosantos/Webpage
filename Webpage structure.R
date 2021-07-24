@@ -43,6 +43,10 @@ file.edit("./content/authors/admin/_index.md")
 #==================================================================#
 
 
+
+file.edit("./themes/github.com/wowchemy/wowchemy-hugo-modules/wowchemy/layouts/partials/widgets/contact.html")
+
+
 #==================================================================#
 #         Web page structure
 #==================================================================#
