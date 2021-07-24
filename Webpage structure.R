@@ -35,12 +35,25 @@ file.edit("./content/public/Upcoming.Rmd")
 #           HOME
 #==================================================================#
 
-file.edit("C:/Webpage/Webpage/content/authors/admin/_index.md")
+file.edit("./content/authors/admin/_index.md")
 
 
 #==================================================================#
 #           Contact information
 #==================================================================#
+
+
+#==================================================================#
+#         Web page structure
+#==================================================================#
+# Skills rows
+
+file.edit("./themes/github.com/wowchemy/wowchemy-hugo-modules/wowchemy/layouts/partials/widgets/featurette.html")
+
+# In line 23 to 25 (originally) change col-12 to fewer and sm-4 to fewer. Here
+{{ end }}
+<div class="col-10 col-sm-2">
+  {{ with .icon }}
 
 
 
