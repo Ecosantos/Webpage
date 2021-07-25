@@ -56,6 +56,7 @@ file.edit("./content/home/tags.md")
 #           Contact information
 #==================================================================#
 
+# email form removed from the code below:
 
 file.edit("./themes/github.com/wowchemy/wowchemy-hugo-modules/wowchemy/layouts/partials/widgets/contact.html")
 
