@@ -16,7 +16,7 @@ title: Popular topics
 subtitle:
 
 design:
-  columns: '3'
+  columns: '1'
 ---
 
 ```{r include=FALSE, echo=FALSE}
@@ -90,7 +90,7 @@ MyTweets<-slice(textCorpus,1:200)
 ```{r}
 library(hwordcloud)
 hwordcloud(text = MyTweets$word, size = MyTweets$freq, 
-           width = "100%", height = "400px")
+           width = "100%", height = "200px")
 ```
 
 ```{r include=FALSE}
