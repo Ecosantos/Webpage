@@ -88,12 +88,10 @@ MyTweets<-slice(textCorpus,1:200)
 ```{r}
 library(hwordcloud)
 hwordcloud(text = MyTweets$word, size = MyTweets$freq, 
-           width = "100%", height = "200px")
+           width = "400px", height = "100%")
 ```
 
 ```{r include=FALSE}
 #library(rmarkdown)
 #render("tags.Rmd")
 ```
-
-

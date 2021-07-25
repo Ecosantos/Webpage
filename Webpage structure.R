@@ -39,9 +39,22 @@ file.edit("./content/authors/admin/_index.md")
 
 
 #==================================================================#
-#           Contact information
+#           News
 #==================================================================#
 
+file.edit("./content/home/news.md")
+dir("./themes/github.com/wowchemy/wowchemy-hugo-modules/wowchemy/layouts/partials/widgets/")
+
+
+#==================================================================#
+#           Popular topics
+#==================================================================#
+
+file.edit("./content/home/tags.md")
+
+#==================================================================#
+#           Contact information
+#==================================================================#
 
 
 file.edit("./themes/github.com/wowchemy/wowchemy-hugo-modules/wowchemy/layouts/partials/widgets/contact.html")
