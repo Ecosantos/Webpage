@@ -22,4 +22,5 @@ main:
   - name: SalgoTeam
     url: "https://www.salgo.ox.ac.uk/"
     target: "_blank"
+    class: page item
     weight: 100
