@@ -20,8 +20,14 @@ main:
     url: '#contact'
     weight: 70
   - name: SalgoTeam
-    baseUrl = https://www.salgo.ox.ac.uk/
+    url: https://www.salgo.ox.ac.uk/
     weight: 100
   - name: teste2
-    baseUrl = "https://www.salgo.ox.ac.uk/""
+    url: "https://www.salgo.ox.ac.uk/"
     weight: 110
+  - name: teste3
+    baseUrl: "https://www.salgo.ox.ac.uk/"
+    weight: 120
+  - name: teste4
+    baseUrl: https://www.salgo.ox.ac.uk/
+    weight: 130
