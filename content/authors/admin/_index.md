@@ -64,3 +64,8 @@ Testing 11 June 2021
 {{% callout note %}}
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 {{% /callout %}}
+
+
+{{% callout note %}}
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "./Resume/Resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{% /callout %}}

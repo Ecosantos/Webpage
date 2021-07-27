@@ -37,7 +37,6 @@ file.edit("./content/public/Upcoming.Rmd")
 
 file.edit("./content/authors/admin/_index.md")
 
-
 #==================================================================#
 #           News
 #==================================================================#
@@ -59,6 +58,20 @@ file.edit("./content/home/tags.md")
 # email form removed from the code below:
 
 file.edit("./themes/github.com/wowchemy/wowchemy-hugo-modules/wowchemy/layouts/partials/widgets/contact.html")
+
+
+#==================================================================#
+#           CV
+#==================================================================#
+
+
+
+
+
+
+#Eemplo originalmente em:
+dir("themes/starter-hugo-academic/exampleSite/static/uploads")
+
 
 
 #==================================================================#
