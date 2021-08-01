@@ -20,7 +20,7 @@ main:
     url: '#contact'
     weight: 70
   - name: SalgoTeam
-    url: https://www.salgo.ox.ac.uk/
+    url: "https://www.salgo.ox.ac.uk/"
     target: "_blank"
     class: "link external"
     weight: 100
