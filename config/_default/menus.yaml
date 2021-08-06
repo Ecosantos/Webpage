@@ -23,6 +23,6 @@ main:
     URL: "https://www.salgo.ox.ac.uk/"
     target: "blank"
     weight: 100
-  - name: [SalgoTeam2]
+  - name: SalgoTeam2
     URL: (https://www.salgo.ox.ac.uk/)
     weight: 100
