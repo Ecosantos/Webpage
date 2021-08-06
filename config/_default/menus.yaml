@@ -19,17 +19,6 @@ main:
   - name: Contact
     url: '#contact'
     weight: 70
-  - name: A
-    URL: "https://www.salgo.ox.ac.uk/"
-    target: "blank"
-    weight: 100
-  - name: SalgoTeam2
-    URL: (https://www.salgo.ox.ac.uk/)
-    weight: 100
-  - name: SalgoTeam3
-    URL: ("https://www.salgo.ox.ac.uk/"){:target="_blank"}
-    weight: 100
-  - name: SalgoTeam4
-    URL: ("https://www.salgo.ox.ac.uk/")
-    weight: 100
-    
+  - name: C
+    url_site: "https://www.salgo.ox.ac.uk/"
+

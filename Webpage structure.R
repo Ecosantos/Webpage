@@ -64,9 +64,14 @@ file.edit("./themes/github.com/wowchemy/wowchemy-hugo-modules/wowchemy/layouts/p
 #           CV
 #==================================================================#
 
+#==================================================================#
+#           adding external links
+#==================================================================#
+
+file.edit("C:/Webpage/Webpage/themes/github.com/wowchemy/wowchemy-hugo-modules/wowchemy/layouts/partials/page_author_card.html")
 
 
-
+file.edit("./themes/github.com/wowchemy/wowchemy-hugo-modules/wowchemy/layouts/partials/widgets/featurette.html")
 
 
 #Eemplo originalmente em:
