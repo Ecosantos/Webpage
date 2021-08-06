@@ -20,5 +20,5 @@ main:
     url: '#contact'
     weight: 70
   - name: C
-    url_site: "https://www.salgo.ox.ac.uk/"
+    link: "https://www.salgo.ox.ac.uk/"
 
