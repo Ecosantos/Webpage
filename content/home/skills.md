@@ -32,7 +32,7 @@ feature:
   icon_pack: ai
   name: Citizen Science
 - description: 15%
-  icon: chart-line
+  icon: music
   icon_pack: fas
   name: Flute
 
