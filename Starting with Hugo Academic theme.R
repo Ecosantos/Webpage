@@ -95,6 +95,16 @@ git push -u origin main
 #           Updating website
 #-------------------------------------------------
 
+
+#Updating knitrs
+#Some selected .rmd inform time of last update
+
+library(knitr)
+source(knitr::purl("C:/Webpage/Webpage/Resume/Resume.Rmd"))
+source(knitr::purl("C:/Webpage/Webpage/content/authors/admin/_index.rmd"))
+source(knitr::purl("./content/home/news.md"))
+
+
 usethis::pr_push()
 
 

@@ -1,26 +1,9 @@
----
-name: Gabriel
-surname: Santos
-position: "PhD Candidate"
-address: "Department of Ecology - Rio de Janeiro State University"
-profilepic: avatar.jpg
-www: ecosantos.netlify.app
-email: "ssantos.gabriel@gmail.com"
-twitter: anycommonname
-github: ecosantos
-date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "I'm a Brazilian ecologist seeking to try every single variety of coffee in the world! Help me on my dream hiring me and give some opportunity to travel worldwide, please!!."
-output: vitae::twentyseconds
----
-
-```{r setup, include=FALSE}
+## ----setup, include=FALSE---------------------------------------------------------------------------------------------------------------------------------------
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
-```
 
-# Education
 
-```{r}
+## ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
@@ -29,15 +12,12 @@ tribble(
   "Ecology & Evolution, PhD", "2017-2021", "Rio de Janeiro State University", "Rio de Janeiro, Brazil"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
-```
 
-# Publications
 
-```{r}
+## ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 library(dplyr)
 knitr::write_bib(c("vitae", "tibble"), "packages.bib")
 
 bibliography_entries("packages.bib") %>%
   arrange(desc(author$family), issued)
-```
 
