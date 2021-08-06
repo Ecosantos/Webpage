@@ -19,7 +19,10 @@ main:
   - name: Contact
     url: '#contact'
     weight: 70
-  - name: SalgoTeam
-    URL: "https://www.salgo.ox.ac.uk/"
+  - name: SalgoTeam1
+    baseurl: "https://www.salgo.ox.ac.uk/"
     target: "blank"
+    weight: 100
+  - name: SalgoTeam2
+    href: "https://www.salgo.ox.ac.uk/"
     weight: 100
