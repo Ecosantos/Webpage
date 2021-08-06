@@ -19,6 +19,6 @@ main:
   - name: Contact
     url: '#contact'
     weight: 70
-  - name: C
-    link: "https://www.salgo.ox.ac.uk/"
+  - name: A
+    url: https://www.salgo.ox.ac.uk/
 
