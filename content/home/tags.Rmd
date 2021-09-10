@@ -30,6 +30,9 @@ library(tidyverse)
 
 
 ```{r include=FALSE}
+#==============================================================
+#   CRITICAL STEP TO UPDATE THE WORD CLOUD!!!
+#==============================================================
 #Due to problems on API I need to create and save the Twitter scrap in a RDS object which RMarkdown can read without request API
 # it means that I need to run this chunk manually to scrap my tweets
 # And them I can knit!

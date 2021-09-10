@@ -48,16 +48,4 @@ design:
       <a href="https://www.inaturalist.org"><img alt="iNaturalist" src="https://www.inaturalist.org/assets/logo-small-197cf816b66ccb971f84a9dcb9703126.gif" /></a>  
     </div>
   <script type="text/javascript" charset="utf-8" src="https://www.inaturalist.org/observations/gabriel_santos.widget?layout=large&limit=5&order=desc&order_by=observed_on"></script>
-  <table class="inat-footer">
-    <tr class="inat-user">
-        <td class="inat-user-image">
-          <a border="0" href="https://www.inaturalist.org/observations/gabriel_santos"><img class="usericon" src="https://static.inaturalist.org/attachments/users/icons/2362283/thumb.jpeg?1571012323" alt="Thumb" /></a>
-        </td>
-      <td class="inat-value">
-        <strong>
-            <a href="https://www.inaturalist.org/observations/gabriel_santos">Exibir as observações de gabriel_santos »</a>
-        </strong>
-      </td>
-    </tr>
-  </table>
 </div>

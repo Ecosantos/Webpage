@@ -50,7 +50,7 @@ dir("./themes/github.com/wowchemy/wowchemy-hugo-modules/wowchemy/layouts/partial
 #           Popular topics
 #==================================================================#
 
-file.edit("./content/home/tags.md")
+file.edit("./content/home/tags.rmd")
 
 #==================================================================#
 #           Contact information
