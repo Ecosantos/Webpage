@@ -35,7 +35,8 @@ file.edit("./content/public/Upcoming.Rmd")
 #           HOME
 #==================================================================#
 
-file.edit("./content/authors/admin/_index.md")
+dir("./content/authors/admin/")
+file.edit("./content/authors/admin/_index.rmd")
 
 #==================================================================#
 #           News

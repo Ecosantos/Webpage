@@ -4,7 +4,7 @@ education:
   courses:
   - course: PhD in Ecology & Evolution
     institution: Rio de Janeiro State University -  Brazil
-    year: 2017 - current
+    year: 2017 - 2021
   - course: MsC in Ecology & Evolution
     institution: Rio de Janeiro State University  -  Brazil
     year: 2016
@@ -24,7 +24,7 @@ role: PhD Candidate
 social:
 - icon: envelope
   icon_pack: fas
-  link: /#contact
+  link: "mailto:ssantos.gabriel@gmail.com"
 - display:
     header: false
   icon: twitter

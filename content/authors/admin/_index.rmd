@@ -4,7 +4,7 @@ education:
   courses:
   - course: PhD in Ecology & Evolution
     institution: Rio de Janeiro State University -  Brazil
-    year: 2017 - current
+    year: 2021
   - course: MsC in Ecology & Evolution
     institution: Rio de Janeiro State University  -  Brazil
     year: 2016
@@ -15,8 +15,12 @@ email: ssantos.gabriel@gmail.com
 highlight_name: false
 interests:
 - Demography
-- Population Modeling
+- Population modelling
 - Applied statistics
+- Invasive species
+- Natural history
+- Citizen science
+
 organizations:
 - name: Rio de Janeiro State University -  Brazil
   url: null
@@ -24,7 +28,7 @@ role: PhD Candidate
 social:
 - icon: envelope
   icon_pack: fas
-  link: /#contact
+  link: "mailto:ssantos.gabriel@gmail.com"
 - display:
     header: false
   icon: twitter
@@ -56,7 +60,7 @@ See you soon and take care :mask:
 
 
 
-                                      Last time updated: `r Sys.time()`
+                                      Last time updated: `r Sys.Date()`
 
 ```{r echo=FALSE}
 #Criei esse chunk para desaparecer com essa parte aqui por enquanto já que isso não funciona no formato .Rmd mas quero continuar usando essa ideia para deixar meu currículo disponív
