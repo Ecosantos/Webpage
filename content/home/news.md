@@ -16,15 +16,15 @@ title: News
 subtitle:
 
 design:
-  columns: '3'
+  columns: "2"
 ---
 
+ <div style="width: 50%;">Column 1 content</div><div style="width: 50%;">Column 2 content</div>.
 
-<a class="twitter-timeline" data-width="300" data-height="400" href="https://twitter.com/anycommonname">Tweets by @Anycommonname</a>
+
+<a class="twitter-timeline" data-width="600" data-height="400" href="https://twitter.com/anycommonname">Tweets by @Anycommonname</a>
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-
 
 <style type="text/css" media="screen">
 .inat-widget { font-family: Georgia, serif; padding: 10px; line-height: 1;}
@@ -45,7 +45,23 @@ design:
 </style>
 <div class="inat-widget">
     <div class="inat-widget-header">
-      <a href="https://www.inaturalist.org"><img alt="iNaturalist" src="https://www.inaturalist.org/assets/logo-small-197cf816b66ccb971f84a9dcb9703126.gif" /></a>  
+      <a href="https://www.inaturalist.org"><img alt="iNaturalist" src="https://www.inaturalist.org/assets/logo-small-0952e30acb89d43b4ac3550901b929325ffc6bfcbff8a358825dbc14e04626f4.gif" /></a>  
     </div>
-  <script type="text/javascript" charset="utf-8" src="https://www.inaturalist.org/observations/gabriel_santos.widget?layout=large&limit=5&order=desc&order_by=observed_on"></script>
+  <script type="text/javascript" charset="utf-8" src="https://www.inaturalist.org/observations/gabriel_santos.widget?layout=small&limit=12&order=asc&order_by=created_at"></script>
+  <table class="inat-footer">
+    <tr class="inat-user">
+        <td class="inat-user-image">
+          <a border="0" href="https://www.inaturalist.org/observations/gabriel_santos"><img class="usericon" src="https://static.inaturalist.org/attachments/users/icons/2362283/thumb.jpeg?1571012323" /></a>
+        </td>
+      <td class="inat-value">
+        <strong>
+            <a href="https://www.inaturalist.org/observations/gabriel_santos">Exibir as observações de gabriel_santos »</a>
+        </strong>
+      </td>
+    </tr>
+  </table>
 </div>
+
+
+
+
