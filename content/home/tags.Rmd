@@ -92,8 +92,7 @@ MyTweets<-slice(textCorpus,1:200)
 
 ```{r}
 library(hwordcloud)
-hwordcloud(text = MyTweets$word, size = MyTweets$freq, 
-           width = "100%", height = "200px")
+hwordcloud(text = MyTweets$word, size = MyTweets$freq, width = "100%", height = "200px")
 ```
 
 ```{r include=FALSE}
