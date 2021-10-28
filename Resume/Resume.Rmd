@@ -1,7 +1,7 @@
 ---
 name: Gabriel
 surname: Santos
-position: "PhD Candidate"
+position: "PhD"
 address: "Department of Ecology - Rio de Janeiro State University"
 profilepic: avatar.jpg
 www: ecosantos.netlify.app
@@ -9,13 +9,15 @@ email: "ssantos.gabriel@gmail.com"
 twitter: anycommonname
 github: ecosantos
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "I'm a Brazilian ecologist seeking to try every single variety of coffee in the world! Help me on my dream hiring me and give some opportunity to travel worldwide, please!!."
+aboutme: "I'm a Brazilian ecologist seek to try every single variety of coffee in the world! Help me on my dream hiring me and giving me the opportunity to travel worldwide. A part of my coffee adiction, I'm interest in the drivers and fates of wildlife population mainly focused in endangered and invasive species. I'm also a entusiast of programming, citizen science and the old-fashion naturalists"
 output: vitae::twentyseconds
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
+library(scholar)
+library(tidyverse)
 ```
 
 # Education
@@ -26,18 +28,69 @@ tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
   "Biological Science, BSC", "2008-2013", "Federal University of Espirito Santo", "Vitória, Brazil ",
   "Ecology & Evolution, MSc", "2014-2016", "Rio de Janeiro State University", "Rio de Janeiro, Brazil",
+  "Applied Statistics, Specialization", "2018-2019", "Federal Rural University of Rio de Janeiro", "Rio de Janeiro, Brazil",
   "Ecology & Evolution, PhD", "2017-2021", "Rio de Janeiro State University", "Rio de Janeiro, Brazil"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
 
+# Selected experiences
+
+```{r}
+library(tibble)
+tribble(
+  ~ Year, ~ Role, ~ Institution, ~ What,
+  "Visiting professor", "Mar/2017-Jul/2018", "Rio de Janeiro State University", "Lecture/Course: Sampling design/Biological Science",
+  "Visiting researcher", "Aug/2019-Feb/2020", "University of Oxford", "Visiting researcher at the SalgoTeam group",
+  "Applied Statistics, Specialization", "2018-2019", "Federal Rural University of Rio de Janeiro", "Rio de Janeiro, Brazil",
+  "Ecology & Evolution, PhD", "2017-2021", "Rio de Janeiro State University", "Rio de Janeiro, Brazil"
+) %>% 
+  detailed_entries(Year,Role,Institution,What)
+```
+
 # Publications
+
+#### Summary
+
+```{r message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+H<-predict_h_index("DXeK9HwAAAAJ&hl")
+
+pubs<-get_publications("DXeK9HwAAAAJ&hl")
+
+#Pubs total:
+pubs_tot=pubs%>%select(title)%>%count()
+
+#5 years publications
+five_year_pubs=pubs%>%filter(year > as.numeric(format(Sys.Date(),format="%Y"))-5)%>%select(title)%>%count()
+
+df=data.frame(Labels=c("Total publications","Lastest publications (5-years)", "H-index","Predicted H-index (5 years ahead)"),
+              Values= c(pubs_tot[[1]],five_year_pubs[[1]],H[1,2],H[6,2]))
+```
+
+```{r}
+df%>%
+#as_tibble()%>%
+  pivot_wider(names_from=Labels,values_from=Values)%>%
+  brief_entries(what=colnames(.))
+```
+
+
+
+
+
+```{r}
+#This format is called longtable and it is not allowed in this package (or Latex? I'm not sure where is the problem)
+#| Publications                     | Total publications                                                                    #            | H-Index     | H-Index predict 5-years ahead |
+#|----------------------------------|--------------------------------------------------------------------------------------#-------------|-------------|-------------------------------|
+#| `pubs%>%select(title)%>%count()` | `r  pubs%>%filter(year > #as.numeric(format(Sys.Date(),format="%Y"))-5)%>%select(title)%>%count()` | `r  H[1,2]` | `r round(H[6,2],0)`           |
+```
 
 ```{r}
 library(dplyr)
-knitr::write_bib(c("vitae", "tibble"), "packages.bib")
-
+#knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+#getwd()
+#dir()
+#file.edit("packages.bib")
 bibliography_entries("packages.bib") %>%
   arrange(desc(author$family), issued)
 ```
-

@@ -21,6 +21,9 @@ design:
 
  <font size="4"> 
  
+## 2021
+Costa, T.S.D., Ferreira, R.M.D.A., **Santos, G.S.**, Garcia-Júnior, M.D., Pinto, C.B., & Souto, R.N.P. Ecological aspects and molecular detection of Leishmania DNA (Kinetoplastida: Trypanosomatidae) in phlebotomine sand flies (Diptera: Psychodidae) from a rural settlement in the Eastern Amazon, Brazil. *Revista Brasileira de Entomologia*[*Link*](https://www.scielo.br/j/rbent/a/mtCscHfgJywDSgg9bwgTxKK/)
+ 
 ## 2020
 **Santos, G.S.**; Vecchi, M.B. & Alves, M.A.S. Transatlantic movement of Domestic Pigeons *Columba livia domestica*? *Oecologia Australis*. [*link*](http://dx.doi.org/10.4257/oeco.2020.2404.03)
 

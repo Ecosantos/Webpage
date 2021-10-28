@@ -13,9 +13,16 @@ design:
  <font size="4"> 
 **Santos, G.S.**; Nater, C.; Capdevilla, P.; Salguero-Gómez, R.; Kajin, M. The multiple meanings and scales of buffering. In prep. To be submitted to Trends in Ecology & Evolution [preview under request]
 
-**Santos, G.S.**; Figueiredo, M.S.L.; Salguero-Gómez, R.; Dias, A.T.C.; Kajin, M. Linking life-history strategies and phylogeny with responses to environmental variability. In prep. [Preview]
+**Santos, G.S.**; Figueiredo, M.S.L.; Salguero-Gómez, R.; Dias, A.T.C.; Kajin, M. Linking life-history strategies and phylogeny with responses to environmental variability. In prep.
 
 **Santos, G.S.**; Salguero-Gómez, R.; Coelho, F.L. Evaluating the performance of Wood’s Quadratic Programme to estimate demographic parameters. In prep.[A first draft is available in PT]
+</font>
+
+### In review
+ <font size="4"> 
+Costa, T. S. D., Ferreira, R. M. D. A., **Santos, G. S.**, Garcia Júnior, M. D., Pinto, C. B., & Souto, R. N. P. Entomological Survey of phlebotominae sand flies (Diptera:Psychodidae) and vector species in the tegumentary leishmaniasis endemic area in Eastern Brazilian Amazon, Amapa State. In review in Biota Neotropica.
+
+Willmer, J.N., Santos, G.S., Grelle, C.E.V., Cerqueira, R. Assessing the potential of citizen science to reduce Wallacean shortfall in a tropical hotspot of biodiversity. In review in Perspective in Ecology and Conservation.
 </font>
 
 
