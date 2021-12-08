@@ -32,6 +32,7 @@ library(terra)
 library(tidyverse)
 library(leaflet)
 library(openxlsx)
+library(widgetframe)
 
 
 world <- ne_countries(scale = "medium", returnclass = "sf")
@@ -53,16 +54,42 @@ Ung<-read.xlsx(
 			sheet="Planilha1",startRow = 1,  
 				detectDates = TRUE, colNames = TRUE)
 
-Ung<-sf::st_as_sf(x = Ung, 
-	coords = c("Long", "Lat"),
-      crs = newproj)
+MA_sp=MA<-rgdal::readOGR(dsn = "C:/Artigos e resumos publicados submetidos ideias/Em desenvolvimento/INMA/Script/UCs Brasil _Carol Loss", layer = "mata_atlantica_bosque_bioma2019_dissolved")
+MA<-sf::st_as_sf(MA)
+MA<-MA%>%
+	as(., "Spatial")%>%
+		terra::vect(.)
+
+
+HFP2009<-raster("C:/Artigos e resumos publicados submetidos ideias/Em desenvolvimento/INMA/Script/HFP2009_MA_low.tif")
 ```
 
+
+
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-library(leaflet)
-leaflet() %>%  
+myleaf<-leaflet() %>%  
  addTiles()  %>%
-setView(lat = -15, lng = -45, zoom = 5) 
+setView(lat = -15, lng = -45, zoom = 5) %>%
+addPolygons(data = UCs_sp, group = "UCs_MA",
+            stroke = FALSE, smoothFactor = 0.2, fillOpacity = 0.5)%>%
+addRasterImage(HFP2009,colors = "inferno",opacity = 1,group = "HFI2009")%>%
+addCircleMarkers(data=Ung, lng = ~Long, lat = ~Lat, 
+             popup = ~Espécie,group="Ungulados")%>%
+addLayersControl(baseGroups = c("OSM (default)"),
+	overlayGroups = c("UCs_MA", "HFI2009","Ungulados"))
 ```
+
+
+
+```{r}
+frameWidget(myleaf, width = "100%")
+```
+
+
+
+
+
+
+
 
 
