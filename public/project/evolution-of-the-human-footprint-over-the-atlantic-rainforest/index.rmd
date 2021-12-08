@@ -59,7 +59,10 @@ Ung<-sf::st_as_sf(x = Ung,
 ```
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-mapview(Ung)
+library(leaflet)
+leaflet() %>%  
+ addTiles()  %>%
+setView(lat = -15, lng = -45, zoom = 5) 
 ```
 
 
