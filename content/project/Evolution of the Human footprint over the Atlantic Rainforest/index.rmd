@@ -39,7 +39,7 @@ world <- ne_countries(scale = "medium", returnclass = "sf")
 newproj <- raster::crs(world)
 
 UCs_sp=UCs<-rgdal::readOGR(
-	dsn = "C:/Artigos e resumos publicados submetidos ideias/Em desenvolvimento/INMA/Script/UCs Brasil _Carol Loss", 
+	dsn = "C:/Webpage/Webpage/content/project/Evolution of the Human footprint over the Atlantic Rainforest/UCs Brasil _Carol Loss", 
 		layer = "uc_bosque-bioma_mar_2020-2_final_v02")
 
 
@@ -50,18 +50,18 @@ UCs<-UCs%>%
 		terra::vect(.)
 
 Ung<-read.xlsx(
-"C:/Artigos e resumos publicados submetidos ideias/Em desenvolvimento/INMA/Script/Anta_queixada_cateto_UCs_CCMA.xlsx",
+"C:/Webpage/Webpage/content/project/Evolution of the Human footprint over the Atlantic Rainforest/Anta_queixada_cateto_UCs_CCMA.xlsx",
 			sheet="Planilha1",startRow = 1,  
 				detectDates = TRUE, colNames = TRUE)
 
-MA_sp=MA<-rgdal::readOGR(dsn = "C:/Artigos e resumos publicados submetidos ideias/Em desenvolvimento/INMA/Script/UCs Brasil _Carol Loss", layer = "mata_atlantica_bosque_bioma2019_dissolved")
+MA_sp=MA<-rgdal::readOGR(dsn = "C:/Webpage/Webpage/content/project/Evolution of the Human footprint over the Atlantic Rainforest/UCs Brasil _Carol Loss", layer = "mata_atlantica_bosque_bioma2019_dissolved")
 MA<-sf::st_as_sf(MA)
 MA<-MA%>%
 	as(., "Spatial")%>%
 		terra::vect(.)
 
 
-HFP2009<-raster("C:/Artigos e resumos publicados submetidos ideias/Em desenvolvimento/INMA/Script/HFP2009_MA_low.tif")
+HFP2009<-raster("C:/Webpage/Webpage/content/project/Evolution of the Human footprint over the Atlantic Rainforest/HFP2009_MA_low.tif")
 ```
 
 
@@ -77,13 +77,11 @@ addCircleMarkers(data=Ung, lng = ~Long, lat = ~Lat,
              popup = ~Espécie,group="Ungulados")%>%
 addLayersControl(baseGroups = c("OSM (default)"),
 	overlayGroups = c("UCs_MA", "HFI2009","Ungulados"))
+
+
+myleaf
 ```
 
-
-
-```{r}
-frameWidget(myleaf, width = "100%")
-```
 
 
 
