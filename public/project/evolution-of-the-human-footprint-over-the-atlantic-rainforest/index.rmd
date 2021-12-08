@@ -15,26 +15,51 @@ tags:
 - Conservação
 - Mata Atlântica
 - Ecologia espacial
-title: Evolução da pressão antrópica na Mata Atlântica nas últimas três décadas
+title: Ungulados - BETA
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 output: html_document
 ---
+```{r include=FALSE}
+library(ggplot2)
+library(raster)
+library(mapview)
+library(rnaturalearth)
+library(rnaturalearthdata)
+library(terra)
+library(tidyverse)
+library(leaflet)
+library(openxlsx)
 
 
----
-date: "2016-04-27T00:00:00Z"
-external_link: http://example.org
-image:
-  caption: Photo by Toa Heftiba on Unsplash
-  focal_point: Smart
-summary: An example of linking directly to an external project website using `external_link`.
-tags:
-- Demo
-title: 
----
+world <- ne_countries(scale = "medium", returnclass = "sf")
+newproj <- raster::crs(world)
 
-Let's see whats happen by writing something here
+UCs_sp=UCs<-rgdal::readOGR(
+	dsn = "C:/Artigos e resumos publicados submetidos ideias/Em desenvolvimento/INMA/Script/UCs Brasil _Carol Loss", 
+		layer = "uc_bosque-bioma_mar_2020-2_final_v02")
+
+
+UCs_sf=UCs<-sf::st_as_sf(UCs)
+
+UCs<-UCs%>%
+	as(., "Spatial")%>%
+		terra::vect(.)
+
+Ung<-read.xlsx(
+"C:/Artigos e resumos publicados submetidos ideias/Em desenvolvimento/INMA/Script/Anta_queixada_cateto_UCs_CCMA.xlsx",
+			sheet="Planilha1",startRow = 1,  
+				detectDates = TRUE, colNames = TRUE)
+
+Ung<-sf::st_as_sf(x = Ung, 
+	coords = c("Long", "Lat"),
+      crs = newproj)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+mapview(Ung)
+```
+
 
