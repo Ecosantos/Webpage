@@ -1,0 +1,40 @@
+---
+date: "2016-04-27T00:00:00Z"
+external_link: ""
+image:
+  caption: Photo by rawpixel on Unsplash
+  focal_point: Smart
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/georgecushen
+slides: example
+summary: An example of using the in-built project page.
+tags:
+- Conservação
+- Mata Atlântica
+- Ecologia espacial
+title: Evolução da pressão antrópica na Mata Atlântica nas últimas três décadas
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+output: html_document
+---
+
+
+---
+date: "2016-04-27T00:00:00Z"
+external_link: http://example.org
+image:
+  caption: Photo by Toa Heftiba on Unsplash
+  focal_point: Smart
+summary: An example of linking directly to an external project website using `external_link`.
+tags:
+- Demo
+title: 
+---
+
+Let's see whats happen by writing something here
+

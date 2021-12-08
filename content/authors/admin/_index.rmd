@@ -24,7 +24,7 @@ interests:
 organizations:
 - name: Rio de Janeiro State University -  Brazil
   url: null
-role: PhD Candidate
+role: Ecology & Evolution,PhD    Researcher at [INMA](https://www.gov.br/mcti/pt-br/rede-mcti/inma)
 social:
 - icon: envelope
   icon_pack: fas

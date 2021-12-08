@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ecologia espacial | Home</title>
+    <link>/tag/ecologia-espacial/</link>
+      <atom:link href="/tag/ecologia-espacial/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ecologia espacial</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Ecologia espacial</title>
+      <link>/tag/ecologia-espacial/</link>
+    </image>
+    
+    <item>
+      <title>Evolução da pressão antrópica na Mata Atlântica nas últimas três décadas</title>
+      <link>/project/evolution-of-the-human-footprint-over-the-atlantic-rainforest/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/evolution-of-the-human-footprint-over-the-atlantic-rainforest/</guid>
+      <description>
+&lt;script src=&#34;/project/evolution-of-the-human-footprint-over-the-atlantic-rainforest/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Let’s see whats happen by writing something here&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
