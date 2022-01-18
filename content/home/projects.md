@@ -30,8 +30,12 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning
-    tag: Deep Learning
+  - name: Learning
+    tag: Learning
+  - name: Visualization
+    tag: Visualization
+  - name: Conservation
+    tag: Conservation
   - name: Other
     tag: Demo
 
