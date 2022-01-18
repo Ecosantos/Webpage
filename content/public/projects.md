@@ -28,11 +28,11 @@ content:
   - name: All
     tag: '*'
   - name: Learning
-    tag: Learning
+    tag: "Learning"
   - name: Visualization
-    tag: Visualization
+    tag: "Visualization"
   - name: Conservation
-    tag: Conservation
+    tag: "Conservation"
   - name: Other
     tag: Demo
 
