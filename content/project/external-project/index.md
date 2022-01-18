@@ -1,11 +1,17 @@
 ---
 date: "2016-04-27T00:00:00Z"
-external_link: http://example.org
+external_link: https://ecosantos.github.io/Footprint/
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  caption: Adapted from the Global Human Footprint(Venter et al. 2016 Scientific Data)
   focal_point: Smart
-summary: An example of linking directly to an external project website using `external_link`.
+summary: A prototipe app for public exploration of the evolution of antropogenic pressure in the protected areas of the Atlantic Forest `external_link`. [**PORTUGUESE ONLY**]
 tags:
-- Demo
-title: External Project
+- Conservation 
+- Biodiversity 
+- Ecology
+- Endangered Flora
+- Protected areas
+- Atlantic Forest
+
+title: Evolution of the human footprint in the protected areas of the Atlantic Forest and their endangered flora species 
 ---

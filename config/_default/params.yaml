@@ -32,15 +32,15 @@ contact_links:
 directions: Department of Ecology in Pavilhão Haroldo Lisboa da Cunha (a.k.a Haroldinho)
 
 address:
-  street: Rua São Francisco Xavier, 524, office 220  
-  city: Rio de Janeiro
-  region: RJ
-  postcode: '20550-019'
+  street: Av. José Ruschi,4   
+  city: Santa Teresa
+  region: ES
+  postcode: '29650-000'
   country: Brazil
   country_code: BRA
 coordinates:
-  latitude: '-22.911289'
-  longitude: '-43.234486'
+  latitude: '-19.93581'
+  longitude: '-40.59949'
 
 main_menu:
   enable: true

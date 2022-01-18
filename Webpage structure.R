@@ -14,7 +14,7 @@ dir("./config/_default")
 #Menu and structure
 file.edit("./config/_default/menus.yaml")
 
-#Parameters
+#Parameters & Address
 file.edit("./config/_default/params.yaml")
 
 #==================================================================#
