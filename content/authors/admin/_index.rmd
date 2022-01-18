@@ -22,7 +22,7 @@ interests:
 - Citizen science
 
 organizations:
-- name: Rsearch Fellow
+- name: Research Fellow
   url: 
 - name: INMA
   url: https://www.gov.br/mcti/pt-br/rede-mcti/inma
