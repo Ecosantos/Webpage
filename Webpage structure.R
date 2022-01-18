@@ -30,6 +30,11 @@ file.edit("./content/public/Peer reviewed.md")
 #Add new Upcomings & in Review & preprints
 file.edit("./content/public/Upcoming.Rmd")
 
+#Tags/filter
+file.edit("./content/home/projects.md")
+  #Existe outro mas não lembro onde
+
+
 
 #==================================================================#
 #           HOME
