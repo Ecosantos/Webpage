@@ -22,9 +22,11 @@ interests:
 - Citizen science
 
 organizations:
-- name: Rio de Janeiro State University -  Brazil
-  url: null
-role: Ecology & Evolution,PhD    Researcher at [INMA](https://www.gov.br/mcti/pt-br/rede-mcti/inma)
+- name: Rsearch Fellow
+  url: 
+- name: INMA
+  url: https://www.gov.br/mcti/pt-br/rede-mcti/inma
+role: Ecology & Evolution,PhD
 social:
 - icon: envelope
   icon_pack: fas

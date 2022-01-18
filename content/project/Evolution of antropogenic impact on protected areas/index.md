@@ -13,5 +13,5 @@ tags:
 - Protected areas
 - Atlantic Forest
 
-title: Evolution of the human footprint in the protected areas of the Atlantic Forest and their endangered flora species 
+title: Evolution of antropogenic impact on protected areas 
 ---

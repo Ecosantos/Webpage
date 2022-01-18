@@ -13,15 +13,23 @@
     </image>
     
     <item>
-      <title>Evolution of the human footprint in the protected areas of the Atlantic Forest and their endangered flora species</title>
-      <link>/project/external-project/</link>
+      <title>Ecologia Numérica</title>
+      <link>/project/ecologia-interativa/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/external-project/</guid>
+      <guid>/project/ecologia-interativa/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Internal Project</title>
+      <title>Evolution of antropogenic impact on protected areas</title>
+      <link>/project/evolution-of-antropogenic-impact-on-protected-areas/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/evolution-of-antropogenic-impact-on-protected-areas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EXAMPLE DEFAULT</title>
       <link>/project/internal-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/project/internal-project/</guid>
