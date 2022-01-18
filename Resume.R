@@ -1,23 +1,69 @@
-## ----setup, include=FALSE---------------------------------------------------------------------------------------------------------------------------------------
+## ----setup, include=FALSE----------------------------------------------------------------------------------------------
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
+library(scholar)
+library(tidyverse)
 
 
-## ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+## ----------------------------------------------------------------------------------------------------------------------
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
   "Biological Science, BSC", "2008-2013", "Federal University of Espirito Santo", "Vitória, Brazil ",
   "Ecology & Evolution, MSc", "2014-2016", "Rio de Janeiro State University", "Rio de Janeiro, Brazil",
+  "Applied Statistics, Specialization", "2018-2019", "Federal Rural University of Rio de Janeiro", "Rio de Janeiro, Brazil",
   "Ecology & Evolution, PhD", "2017-2021", "Rio de Janeiro State University", "Rio de Janeiro, Brazil"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 
 
-## ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-library(dplyr)
-knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+## ----------------------------------------------------------------------------------------------------------------------
+library(tibble)
+tribble(
+  ~ Year, ~ Role, ~ Institution, ~ What,
+  "Visiting professor", "Mar/2017-Jul/2018", "Rio de Janeiro State University", "Lecture/Course: Sampling design/Biological Science",
+  "Visiting researcher", "Aug/2019-Feb/2020", "University of Oxford", "Visiting researcher at the SalgoTeam group",
+  "Applied Statistics, Specialization", "2018-2019", "Federal Rural University of Rio de Janeiro", "Rio de Janeiro, Brazil",
+  "Ecology & Evolution, PhD", "2017-2021", "Rio de Janeiro State University", "Rio de Janeiro, Brazil"
+) %>% 
+  detailed_entries(Year,Role,Institution,What)
 
+
+## ----message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE----------------------------------------------------
+H<-predict_h_index("DXeK9HwAAAAJ&hl")
+
+pubs<-get_publications("DXeK9HwAAAAJ&hl")
+
+#Pubs total:
+pubs_tot=pubs%>%select(title)%>%count()
+
+#5 years publications
+five_year_pubs=pubs%>%filter(year > as.numeric(format(Sys.Date(),format="%Y"))-5)%>%select(title)%>%count()
+
+df=data.frame(Labels=c("Total publications","Lastest publications (5-years)", "H-index","Predicted H-index (5 years ahead)"),
+              Values= c(pubs_tot[[1]],five_year_pubs[[1]],H[1,2],H[6,2]))
+
+
+## ----------------------------------------------------------------------------------------------------------------------
+df%>%
+#as_tibble()%>%
+  pivot_wider(names_from=Labels,values_from=Values)%>%
+  brief_entries(what=colnames(.))
+
+
+## ----------------------------------------------------------------------------------------------------------------------
+#This format is called longtable and it is not allowed in this package (or Latex? I'm not sure where is the problem)
+#| Publications                     | Total publications                                                                    #            | H-Index     | H-Index predict 5-years ahead |
+#|----------------------------------|--------------------------------------------------------------------------------------#-------------|-------------|-------------------------------|
+#| `pubs%>%select(title)%>%count()` | `r  pubs%>%filter(year > #as.numeric(format(Sys.Date(),format="%Y"))-5)%>%select(title)%>%count()` | `r  H[1,2]` | `r round(H[6,2],0)`           |
+
+
+## ----------------------------------------------------------------------------------------------------------------------
+library(dplyr)
+#knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+#getwd()
+#dir()
+#file.edit("packages.bib")
 bibliography_entries("packages.bib") %>%
   arrange(desc(author$family), issued)
 
