@@ -11,6 +11,8 @@ design:
 
 ### Upcomming
 
+<font size="2"> Last time updated: `r Sys.Date()`</font>
+
 <font size="4">
 
 **Santos, G.S.**; Nater, C.; Capdevilla, P.; Salguero-Gómez, R.; Kajin, M. The multiple meanings and scales of buffering. In prep. To be submitted to Trends in Ecology & Evolution [preview under request]
