@@ -21,11 +21,14 @@ design:
 
  <font size="4"> 
  
+## 2022
+Costa, T.S.D., Ferreira, R.M.D.A., **Santos, G.S.**, Garcia Júnior, M.D., Pinto, C.B., & Souto, R.N.P. Entomological survey of phlebotominae sand flies (diptera: psychodidae) and vector species in the tegumentary leishmaniasis endemic area in eastern brazilian Amazon, Amapá state. *Biota Neotropica*.  [*Link*](https://www.scielo.br/j/bn/a/PpkWsDbmr4wGBp8DyCjNRzB/abstract/?lang=en)
+
 ## 2021
-Costa, T.S.D., Ferreira, R.M.D.A., **Santos, G.S.**, Garcia-Júnior, M.D., Pinto, C.B., & Souto, R.N.P. Ecological aspects and molecular detection of Leishmania DNA (Kinetoplastida: Trypanosomatidae) in phlebotomine sand flies (Diptera: Psychodidae) from a rural settlement in the Eastern Amazon, Brazil. *Revista Brasileira de Entomologia*[*Link*](https://www.scielo.br/j/rbent/a/mtCscHfgJywDSgg9bwgTxKK/)
+Costa, T.S.D., Ferreira, R.M.D.A., **Santos, G.S.**, Garcia-Júnior, M.D., Pinto, C.B., & Souto, R.N.P. Ecological aspects and molecular detection of Leishmania DNA (Kinetoplastida: Trypanosomatidae) in phlebotomine sand flies (Diptera: Psychodidae) from a rural settlement in the Eastern Amazon, Brazil. *Revista Brasileira de Entomologia*. [*Link*](https://www.scielo.br/j/rbent/a/mtCscHfgJywDSgg9bwgTxKK/)
  
 ## 2020
-**Santos, G.S.**; Vecchi, M.B. & Alves, M.A.S. Transatlantic movement of Domestic Pigeons *Columba livia domestica*? *Oecologia Australis*. [*link*](http://dx.doi.org/10.4257/oeco.2020.2404.03)
+**Santos, G.S.**; Vecchi, M.B. & Alves, M.A.S. Transatlantic movement of Domestic Pigeons *Columba livia domestica*. *Oecologia Australis*. [*link*](http://dx.doi.org/10.4257/oeco.2020.2404.03)
 
 Zucaratto, R.; **Santos, G.S.**; Pires, A.S. & Bergallo, H.G. Coalescing past and present to predict the future: historical attributes and current situation of a non-native palm on an island in the Atlantic Forest in Brazil. *Journal of Coastal Conservation* [*Link*](https://www.researchgate.net/publication/339569465_Coalescing_past_and_present_to_predict_the_future_historical_attributes_and_current_situation_of_a_non-native_palm_on_an_island_in_the_Atlantic_Forest?_sg=5b2Nu5lrWV-gVPMwaal5EU0OG5lLNXgnMED8gHuTdK-JZJQttwIijYU49u7Vl2tubj4fuS0LSVIow21XSrep1BxNEExG5W2y4XB0qyri.odvprG13sr7oiJp0b24WBlv67FSsZA-P9E8eq0U6QKP_ViEI3BFwxz6q881F0X2kinYc3sDbIcvSioNFdUUSug)
 
