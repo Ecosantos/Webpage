@@ -1,6 +1,6 @@
 ---
 date: "2016-04-27T00:00:00Z"
-external_link: https://ecosantos.github.io/Footprint/
+external_link: https://ecosantos.shinyapps.io/Footprint/
 image:
   caption: Adapted from the Global Human Footprint(Venter et al. 2016 Scientific Data)
   focal_point: Smart
