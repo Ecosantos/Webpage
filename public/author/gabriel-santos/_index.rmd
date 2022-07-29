@@ -50,11 +50,7 @@ superuser: true
 title: Gabriel Santos
 ---
 
-{{% callout note %}}
-I'm migrating my [wixsite](https://gabeco.wixsite.com/home) to the Netlify using Rstudio & Blogdown & Hugo. Be tuned. 
-{{% /callout %}}
-
-I am a Brazilian population ecologist interested in many things, but particularly keen to explore the demographic drivers and fates of wildlife populations. I'm also an enthusiast of old school naturalists, citizen science and programming. 
+I am a Brazilian population ecologist interested in many things, but particularly keen to explore the demographic drivers and fates of wildlife populations and how we can translate theory in better management actions for sustainable resources. I'm also an enthusiast of old school naturalists, citizen science and programming. 
 
 Up to that, I'm a coffee seeker (*a.k.a* coffee addiction <i class="fas fa-coffee"></i>), beer taster, and an MPB (Brazilian Popular Music) lover.  Something in common? Be in touch! 
 

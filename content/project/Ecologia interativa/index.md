@@ -1,6 +1,6 @@
 ---
 date: "2016-04-27T00:00:00Z"
-external_link: https://nathalia--hohl.shinyapps.io/ecologia-interativa/
+external_link: https://ecopopr.shinyapps.io/ecologia-interativa-r/
 image:
   focal_point: Smart
 summary: An interactive app to learn population ecology `external_link`. [**PORTUGUESE ONLY**]
